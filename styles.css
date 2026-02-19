@@ -1,0 +1,56 @@
+body {
+    background-color: rgb(14, 8, 8);
+    color: rgb(3, 248, 248);
+    font-family: 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.name {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.about, .skills, .projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    width: 90%;
+    max-width: 700px;
+    margin: 0 auto 25px;
+    padding: 30px;
+    
+    border: 3px solid rgb(3, 248, 248);
+    border-radius: 15px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.about {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+#AboutPara {
+    margin-top: 15px;
+    font-size: 1.1rem;
+    font-weight: normal;
+    line-height: 1.6;
+}
+
+
+.skills, .projects {
+    font-size: 1.2rem;
+    min-height: 100px;
+}
+
+.about:hover, .skills:hover, .projects:hover {
+    box-shadow: 0 0 30px rgba(3, 248, 248, 0.5);
+    transition: 0.3s ease;
+}
