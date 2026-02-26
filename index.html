@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student Registration Form</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- jQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+
+<h1 id="mainTitle">Student Registration Form</h1>
+
+<form id="regForm">
+    <label>Username</label>
+    <input type="text" id="username" class="field">
+
+    <label>Email</label>
+    <input type="text" id="email" class="field">
+
+    <label>Phone Number</label>
+    <input type="text" id="phone" class="field">
+
+    <label>Password</label>
+    <input type="password" id="password" class="field">
+
+    <label>Confirm Password</label>
+    <input type="password" id="confirmPassword" class="field">
+
+    <button type="submit" id="registerBtn">Register</button>
+    <button type="button" id="changeBtn">Change Button Text</button>
+</form>
+
+<p id="message"></p>
+
+
+<button onclick="addText()">Add Text</button>
+<button onclick="deleteText()">Delete Text</button>
+
+<div id="textContainer"></div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
