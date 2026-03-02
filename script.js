@@ -2,8 +2,8 @@
 // FORM VALIDATION
 // =======================
 
-document.getElementById("regForm").addEventListener("submit", function (e) {
-    e.preventDefault(); // Ajax-style (no reload)
+document.getElementById("regForm").addEventListener("submit", function (e) {  //form validation
+    e.preventDefault(); 
 
     let username = document.getElementById("username").value.trim();
     let email = document.getElementById("email").value.trim();
@@ -103,4 +103,5 @@ $(document).ready(function () {
 
     // Add attribute using jQuery
     $("#email").attr("placeholder", "example@abc.com");
+
 });
