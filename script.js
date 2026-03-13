@@ -2,7 +2,7 @@
 // FORM VALIDATION
 // =======================
 
-document.getElementById("regForm").addEventListener("submit", function (e) {  //form validation
+document.getElementById("regForm").addEventListener("submit", function (e) { 
     e.preventDefault(); 
 
     let username = document.getElementById("username").value.trim();
@@ -105,3 +105,4 @@ $(document).ready(function () {
     $("#email").attr("placeholder", "example@abc.com");
 
 });
+
